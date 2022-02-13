@@ -3,6 +3,9 @@
 
 [![gallerie.pics](https://gallerie.pics/assets/logo/gallerie_logo_64.png)](https://gallerie.pics)
 
+Demo: https://gallerie.pics/
+Admin Screenshots: https://gallerie.pics/?g=5
+
 ----
 
 Gallerie is a PHP Image Gallery management application designed to be flexible and easy to use. The demo included shows how you can output Gallerie for the Unite Gallery UI. You can update the templates to output for other UIs. The code base is light and simple for easy customizations (if you require them).
