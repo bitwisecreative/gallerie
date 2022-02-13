@@ -1,0 +1,109 @@
+/* Border Box */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    font-family: "Calibri", "Gill Sans MT", sans-serif;
+    color: #333;
+}
+h2 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #C33DD1;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+i {
+    font-size: smaller;
+    font-weight: normal;
+}
+#page {
+    min-height: 100%;
+    position: relative;
+}
+#header {
+    padding: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    text-shadow: 0 1px 0 white;
+}
+#logo {
+    position: absolute;
+}
+#header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+#desc {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    text-shadow: 0 1px 0 white;
+}
+#demo {
+    text-align: center;
+}
+#demo .creds {
+    margin: 10px 0 20px 0;
+    font-size: smaller;
+}
+#features,
+#requirements {
+    background: #f7f7f7;
+    padding: 20px 20px 50px 20px;
+}
+#features ul,
+#requirements ul {
+    width: 480px;
+    margin: 0 auto;
+    font-size: larger;
+    line-height: 1.5em;
+    list-style-type: square;
+}
+#requirements {
+    background: white;
+}
+#push {
+    height: 80px;
+}
+#footer {
+    padding: 30px;
+    background: #f7f7f7;
+    text-align: center;
+    text-shadow: 0 1px 0 white;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#gallerie {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}.gallerie-idx-link {
+     text-align: center;
+     padding: 20px;
+}
+@media (max-width: 480px) {
+    #logo {
+        position: relative;
+    }
+    #features ul,
+    #requirements ul {
+        width: 100%;
+    }
+}

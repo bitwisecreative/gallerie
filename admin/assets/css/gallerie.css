@@ -1,0 +1,250 @@
+/* Border Box */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #eee;
+    font-family: "Calibri", "Gill Sans MT", sans-serif;
+}
+a {
+    color: #3D95D1;
+}
+h1 {
+    margin: 0 -10px 20px -10px;
+    padding: 10px;
+    background: #73C5FF;
+    color: #fff;
+    text-shadow: 0 -1px 1px #3D95D1;
+}
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+h3 {
+    text-align: center;
+    color: #3D95D1;
+}
+input[type="submit"],
+input[type="button"]{
+    border: none;
+    background: #73C5FF;
+    box-shadow: 0 4px 0 #3D95D1;
+    margin: 2px 2px 6px 2px;
+}
+input[type="submit"]:active,
+input[type="button"]:active{
+    box-shadow: 0 1px 0 #3D95D1;
+    position: relative;
+    top: 3px;
+}
+input[type="submit"].green,
+input[type="button"].green {
+    background: #7FFF73;
+    box-shadow: 0 4px 0 #4BD13D;
+}
+input[type="submit"].green:active,
+input[type="button"].green:active{
+    box-shadow: 0 1px 0 #4BD13D;
+}
+input[type="submit"].orange,
+input[type="button"].orange{
+    background: #FFAD73;
+    box-shadow: 0 4px 0 #D1793D;
+}
+input[type="submit"].orange:active,
+input[type="button"].orange:active{
+    box-shadow: 0 1px 0 #D1793D;
+}
+input[type="submit"].red,
+input[type="button"].red{
+    background: #F373FF;
+    box-shadow: 0 4px 0 #C33DD1;
+}
+input[type="submit"].red:active,
+input[type="button"].red:active{
+    box-shadow: 0 1px 0 #C33DD1;
+}
+input[type="text"], select {
+    padding: 3px;
+}
+input[name="title"] {
+    width: 300px;
+}
+label {
+    color: #3D95D1;
+    font-size: larger;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0 5px 0;
+}
+input[type="checkbox"].big {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    cursor: pointer;
+}
+#page {
+    max-width: 960px;
+    padding: 0 10px 10px 10px;
+    background: white;
+    margin: 0 auto;
+}
+#logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+#nav {
+    display: inline-block;
+    float:  right;
+}
+#nav ul {
+    margin:  0;
+    font-size:  smaller;
+    list-style:  none;
+}
+#nav li {
+    display:  inline-block;
+    margin:  10px 10px 0 0;
+}
+#nav ul a {
+    color:  white;
+    text-decoration:  none;
+}
+.section {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eee;
+}
+#dz {
+    margin: 10px 0;
+}
+#rebuild-images-progress .progress-text {
+    font-weight: bold;
+    color: #73C5FF;
+}
+#rebuild-images-progress .progress-bar {
+    margin: 10px;
+    border: 1px solid #73C5FF;
+    height: 32px;
+}
+#rebuild-images-progress .progress-bar-progress {
+    width: 0%;
+    background: #73C5FF;
+    height: 30px;
+}
+.gallery-list-item {
+    background: #eee;
+    padding: 10px;
+    cursor: move;
+    margin: 0 0 10px 0;
+}
+.gallery-list-item .idx-img {
+    width: 120px;
+    height: 120px;
+    float: right;
+}
+.gallery-list-item .idx-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.gallery-list-item .name {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.gallery-list-item .count {
+     margin: 0 0 10px 0;
+}
+.gallery-list-item .actions {
+    margin: 20px 0 0 0;
+}
+.gallery-list-item form {
+    display: inline-block;
+}
+.gallery-image-item {
+    width: 132px;
+    height: 200px;
+    background: #eee;
+    text-align: center;
+    padding: 6px 0 0 0;
+    margin: 10px;
+    display: inline-block;
+    cursor: move;
+    position: relative;
+}
+.gallery-image-item .image {
+    height: 120px;
+}
+.gallery-image-item .image img {
+    max-height: 100%;
+}
+.gallery-image-item .title {
+    height: 36px;
+    overflow: hidden;
+    font-size: smaller;
+}
+.gallery-image-item .multi {
+    position: absolute;
+    left: 9px;
+    top: 180px;
+}
+.gallery-image-edit-button {
+
+}
+#gallery-with-selected {
+    float: right;
+}
+.image-display img {
+    max-width: 100%;
+}
+.image-thumb {
+    float: right;
+}
+.image-actions {
+    margin: 10px 0;
+}
+.image-action-row form {
+    display: inline-block;
+}
+.image-actions form {
+    margin: 0 10px 10px 0;
+}
+.image-delete {
+    float: right;
+}
+.crop-selections a {
+    margin: 0 10px 0 0;
+}
+.error {
+    background: #F373FF;
+    margin: 10px 0;
+    padding: 10px;
+}
+.success {
+    background: #7FFF73;
+    margin: 10px 0;
+    padding: 10px;
+}
+.info {
+    background: #73C5FF;
+    margin: 10px 0;
+    padding: 10px;
+}
+.clear {
+    clear: both;
+}
+.half {
+    max-width: 50%;
+    min-width: 320px;
+    display: inline-block;
+}
+.inline-block {
+    display: inline-block;
+}
