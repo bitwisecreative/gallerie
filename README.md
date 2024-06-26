@@ -1,10 +1,10 @@
 # Gallerie
 ## _PHP Image Gallery Management_
 
-[![gallerie.pics](https://gallerie.pics/assets/logo/gallerie_logo_64.png)](https://gallerie.pics)
+[![gallerie](https://gallerie.pics/assets/logo/gallerie_logo_64.png)](https://bitwisecreative.com/webapps/gallerie/)
 
-Demo: https://gallerie.pics/
-Admin Screenshots: https://gallerie.pics/?g=5
+Demo: https://bitwisecreative.com/webapps/gallerie/
+Admin Screenshots: https://bitwisecreative.com/webapps/gallerie/?g=5
 
 ----
 
